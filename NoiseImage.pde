@@ -3,7 +3,7 @@ PImage img;
 float rad=1.0,scale=.02;
 int numFrames=75;
 void setup(){
-  img=loadImage("TenStories.jpg");
+  img=loadImage("test.jpg");
   surface.setSize(img.width,img.height);
   noise=new OpenSimplexNoise();
 }
